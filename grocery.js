@@ -9,7 +9,7 @@ var Grocery = /** @class */ (function () {
     return Grocery;
 }());
 function groceries(cart) {
-    return cart.name + " " + "Cost: " + cart.cost + " " + "Qty: " + cart.qty + " " + "Aisle: " + cart.aisle;
+    return cart.name + " " + cart.cost + " " + cart.qty + " " + cart.aisle;
 }
 var productList = [{ name: 'milk', cost: 3.99, qty: 2, aisle: 4 },
     { name: 'bread', cost: 2.99, qty: 1, aisle: 3 }, { name: 'eggs', cost: 1.50, qty: 1, aisle: 4 },

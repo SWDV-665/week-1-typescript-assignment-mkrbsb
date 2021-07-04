@@ -19,7 +19,7 @@ interface Product {
 }
 
 function groceries(cart: Product) {
-    return cart.name + " " + "Cost: " + cart.cost + " " + "Qty: " + cart.qty + " " + "Aisle: " + cart.aisle
+    return cart.name + " " + cart.cost + " " + cart.qty + " " + cart.aisle
 }
 
 let productList: Array<Product> = [{name: 'milk', cost: 3.99 , qty: 2, aisle: 4}, 
